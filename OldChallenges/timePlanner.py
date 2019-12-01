@@ -27,10 +27,7 @@ def time_planner(a, b, dur):
     if latest_start_need + dur <= earliest_end_need:
       return (latest_start_need, latest_start_need + dur)
     
-    # If this time doesn't work because A's timeslot ends too soon,
-    # check if A's next timeslot will work.
-    # If this time doesn't work because B's timeslot ends too soon,
-    # check if B's next timeslot will work.
+    
     if a[a_count][1] < b[b_count][1]:
       a_count += 1
     else:
