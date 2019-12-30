@@ -21,3 +21,13 @@ function d(x) {
 }
 
 console.log(chainedFunctions([c, a, a, d, b])('Bonn'));
+
+//  SOLUTION  //
+function chainedFunctions(arr) {
+  return x => {
+    arr.forEach(func => {
+      x = func(x);
+    });
+    return x;
+  };
+}
