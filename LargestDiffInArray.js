@@ -18,3 +18,17 @@ function largestDifference(arr) {
   
   largestDifference(100, 90, 80, 50, 10);
   
+  //  SOLUTION  //
+
+function largestDifference(arr) {
+    let low = arr[0]; // 10
+    let high = arr[1] - low; // -3
+    
+    for (let i = 0; i < arr.length; i++) {
+      let current = arr[i]; // 10
+      let potential = current - low; // 10 - 10 = 0
+      low = Math.min(current, low); // 10 - 0
+      high = Math.max(potential, high); // 0, -3
+    }
+    return high;
+  }
