@@ -18,7 +18,7 @@ function largestDifference(arr) {
   
   largestDifference(100, 90, 80, 50, 10);
   
-  //  SOLUTION 
+  //  SOLUTION!
 
 function largestDifference(arr) {
     let low = arr[0]; // 10
