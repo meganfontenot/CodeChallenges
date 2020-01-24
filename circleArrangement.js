@@ -33,3 +33,11 @@ const arrange = (diameter=150, numElements=10, childSize=25) => {
 }
 
 //Helper function for setting styles
+const setChildDimensions = (el, top, left, dimensions) => {
+    el.style.top = top + 'px';
+    el.style.left = left + 'px';
+    el.style.height = dimensions + 'px';
+    el.style.width = dimensions + 'px';
+  }
+  
+  arrange(150, 10, 25);
