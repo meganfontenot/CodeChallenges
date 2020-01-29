@@ -16,7 +16,7 @@ const arrange = (diameter=150, numElements=10, childSize=25) => {
   for(let i = 0; i<numElements; i++) {
     //Find the x and y coordinates of their position in the circle
     //based on the diameter of the parent and the current location
-    //of the angle
+    //of the angles
     const x = Math.round(radius + radius * Math.cos(angle));
     const y = Math.round(radius + radius * Math.sin(angle));
     //Create a child element and assign it the class sub-circle
