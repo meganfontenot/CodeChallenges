@@ -47,4 +47,17 @@ digits_to_letters = {
 def telephone_words(digits):
   results = []
   
+  def recurse(word_so_far, digit_index):
+    if len(word_so_far) == len(digits):
+      results.append(word_so_far)
+      return
+    
+    letters_for_this_digit = digits_to_letters[int(digits[digit_index])]
+    
+    for letter in letters_for_this_digit:
+      recurse(word_so_far + letter, digit_index+1)
+      
+  recurse('', 0)
+  return results
+  
  
