@@ -6,3 +6,12 @@
 // check to see if the current index times the sum - i = product 
 // ^^ true: return [i, sum - 1]
 // otherwise: return null 
+
+function sumAndProduct(sum, product) {
+    for (let i = 0; i <= sum / 2; i++) {
+      if (i * (sum - i) === product)
+        return [i, (sum - i)];
+    }
+    return null;
+  }
+  console.log(sumAndProduct(6, 9));
