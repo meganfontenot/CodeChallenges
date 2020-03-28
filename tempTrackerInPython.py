@@ -10,9 +10,6 @@ class TemperatureTracker:
   	self.total_sum = 0.0
   	self.mean = None
   	
-  	# For min and max 
-  	self.min_temp = float('inf')
-  	self.max_temp = float('-inf')
   
   def insert(self, temp):
   	# for mode 
