@@ -49,7 +49,6 @@ def telephone_words(digits):
   
   def recurse(word_so_far, digit_index):
     if len(word_so_far) == len(digits):
-      results.append(word_so_far)
       return
     
     
