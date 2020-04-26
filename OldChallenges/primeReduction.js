@@ -98,6 +98,5 @@ function primeReduction(a, b) {
 // create another function that will reduce values along the chain
 // ^ until we hit 1
 
-// use a for loop that runs through the range
-//   check if the number is prime
+// 
 
