@@ -65,11 +65,6 @@ function primeReduction(a, b) {
       arr.length = 0;
       return false;
     }
-    arr.push(n);
-    if (n === 1) {
-      arr.length = 0;
-      return true;
-    }
     let hold = 0;
     let num = n;
     while (num > 0) {
