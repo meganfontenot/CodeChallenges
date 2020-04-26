@@ -90,9 +90,3 @@ function primeReduction(a, b) {
   }
   return count;
 }
-
-// in: 2 integers (which represent a range of numbers)
-// out: integer
-// build a function that checks if the number is prime
-
-
