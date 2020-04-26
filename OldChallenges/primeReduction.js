@@ -100,6 +100,4 @@ function primeReduction(a, b) {
 
 // use a for loop that runs through the range
 //   check if the number is prime
-//   reduce through the fancy chain property
-//     increment a counter
-// return the value of that counter
+
