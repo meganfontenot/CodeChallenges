@@ -94,9 +94,5 @@ function primeReduction(a, b) {
 // in: 2 integers (which represent a range of numbers)
 // out: integer
 // build a function that checks if the number is prime
-// make an array to store data
-// create another function that will reduce values along the chain
-// ^ until we hit 1
 
-// 
 
