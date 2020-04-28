@@ -13,7 +13,6 @@ def make_change(amount, denominations):
   
   pass
 
-//  SOLUTION  //
 
 # Recursive solution that duplicates work
 # This one should time out on the last test
