@@ -7,7 +7,7 @@ import pandas as pd
 
 base_url = "https://en.wikipedia.org/wiki/World_Soccer_(magazine)"
 
-# Send get http request
+# Send http request
 page = requests.get(base_url)
 
 # Verify we had a successful get request webpage call
