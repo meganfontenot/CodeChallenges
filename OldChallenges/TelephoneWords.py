@@ -21,9 +21,6 @@ def telephone_words(digits):
       return
 
     current_letters = digits_to_letters[int(digits[i])]
-
-    for l in current_letters:
-      recurse(current + l, i + 1)
       
   recurse('', 0)
   return letters
