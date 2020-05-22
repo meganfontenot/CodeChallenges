@@ -13,9 +13,6 @@ def make_change(amount, denominations):
   
   pass
 
-
-# Recursive solution that duplicates work
-# This one should time out on the last test
 def make_change(amount, denominations, index=0):
   # base cases
   if amount == 0:
